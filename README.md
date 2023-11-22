@@ -1,2 +1,3 @@
 # MEPSO-ALGORITHM-FOR-TSP-PROBLEMS
-The following repository presents the algorithms used for the paper: 
+The following repository presents the algorithms MEPSO I, MEPSO II, and PSO used for the paper: 
+implemented in python.
