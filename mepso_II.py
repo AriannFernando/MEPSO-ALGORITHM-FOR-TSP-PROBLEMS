@@ -1570,7 +1570,7 @@ if __name__ == "__main__":
   for i  in range(100):
     results = []
     #pso = Solver(epoch_stop, graph, iterations=1000, maxEpochs=200, size_population=pop_size, beta=0.1, alfa=0.25)
-    pso = Solver(epoch_stop, graph, iterations=int(round((dimension*600)/7)), maxEpochs=300, size_population=7, beta=0.29, alfa=0.12)
+    pso = Solver(epoch_stop, graph, iterations=int(round((dimension*600)/7)), maxEpochs=200, size_population=7, beta=0.29, alfa=0.12)
     #Nodos(dimension)*Factor de 600 = iterations
     #pso = Solver(epoch_stop, graph, iterations= 1428, maxEpochs=200, size_population=8, beta=0.29, alfa=0.12)
     #start_time = datetime.now()
