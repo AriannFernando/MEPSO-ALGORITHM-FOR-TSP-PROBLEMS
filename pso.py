@@ -653,7 +653,8 @@ if __name__ == "__main__":
   # Uncomment the line that corresponds to the TSP file that you want to use
   dimension = None
   iteration_stop = 0
-  tsp_filename = 'ulysses16.tsp'
+  tsp_file = 'ulysses16.tsp'
+  tsp_filename='Benchmark_problems/'+tsp_file
 
   # Open the TSP file in read mode
   with open(tsp_filename, "r") as tsp_file:
@@ -765,7 +766,7 @@ if __name__ == "__main__":
   #   run_solver_with_params(params)
   #   print(f"Iteration {iteration}, Parameters: {params}")
   
-  csvFile = open('pso-simple-stdev.csv', 'w', newline='')  
+  csvFile = open('pso.csv', 'w', newline='')  
   with csvFile: 
     writer = csv.writer(csvFile)
     writer.writerows(fileoutput)

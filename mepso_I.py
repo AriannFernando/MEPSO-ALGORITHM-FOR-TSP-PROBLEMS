@@ -1429,7 +1429,8 @@ if __name__ == "__main__":
   # Read a TSP file and convert x,y coordinates to distance matrix
   dimension = None
   epoch_stop = 0
-  tsp_filename = 'ulysses16.tsp'
+  tsp_file = 'ulysses16.tsp'
+  tsp_filename='Benchmark_problems/'+tsp_file
   # Open the TSP file in read mode
   with open(tsp_filename, "r") as tsp_file:
       # Iterate through the lines of the file
