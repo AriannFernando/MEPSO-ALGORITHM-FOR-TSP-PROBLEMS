@@ -2,7 +2,7 @@
 
 
 ########################################################################################################################
-# A Particle Swarm Optimization algorithm for solving the traveling salesman problem.
+# A Micro Evolutionary Particle Swarm Optimization algorithm for solving the traveling salesman problem.
 # 
 #  
 # Authors: Rafael Batres, Ariann Fernando Arriaga Alcántara, Juan Carlos Espinoza García, José Carlos Bañales López.
